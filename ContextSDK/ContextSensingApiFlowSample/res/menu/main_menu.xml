@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/trainHome"
+        android:title="@string/trainHome_option"
+        android:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/trainWork"
+        android:title="@string/trainWork_option"
+        android:showAsAction="ifRoom"/>
+</menu>

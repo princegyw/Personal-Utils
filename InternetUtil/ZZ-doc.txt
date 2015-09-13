@@ -1,0 +1,47 @@
+APIs
+-------
+TYPES:
+	 public enum TYPE_PING_RESULT{
+		 PASS, FAIL, IP_NULL, FAIL_IOEXCEPTION, FAIL_INTERUPTED_EXCEPTION
+	 }
+------
+PUBLIC METHODS:
+	public static String getLocalIpAddress()  
+	public static String getExternalIpAddress()
+
+	public static String getGeoInfoByIp(String Ip)  
+		Get geography infomation(eg. City, State, Country) to the given Ip. If Ip is null, return current connected network allocated Ip information.
+
+	public static String getOwnerByIp(String Ip)
+		Get network owner infomation(eg. Intel cooperation) to the given Ip. If Ip is null, return current connected network allocated Ip information.
+
+	public InternetUtil.TYPE_PING_RESULT pingIpAddr(String ipAddress)
+		Ping an Ip address to see whether the route from device to remote address host is smooth connected.
+------
+NOTICE:
+	#Permission needed
+		<uses-permission android:name="android.permission.INTERNET"/>
+
+	#ANR exception
+		For Android 4.2+, possibly need to add LogUtil.applyEasyPolicy() 
+
+	#External lib needed
+		jsoup-1.7.3.jar
+
+---------------------
+#Current version:1.0   
+#version 1.0    @20140725
+	>>Create from previous beta version
+	
+Written by:GuYiwei 
+Email:Yiwei.gu09@gmail.com
+  
+ IN ACCORDANCE WITH GPL LICENECE
+
+
+
+---------------------
+Util Dependancy(NO SENSE for user) 
+1.WebpageAnalyzer.java
+2.jsoup-1.7.3.jar
+3.LogUtil

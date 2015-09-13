@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Context Sensing API Flow Sample</string>
+    <string name="app_header">Context Sensing SDK Samples</string>
+    <string name="startButton">Start</string>
+    <string name="stopButton">Stop</string>
+	<string name="trainHome_option">Train Home</string>
+	<string name="trainWork_option">Train Work</string>
+</resources>

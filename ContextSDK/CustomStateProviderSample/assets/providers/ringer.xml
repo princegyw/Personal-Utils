@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Provider name="RINGER">
+    <URN>urn:mycompany:context:device:ringer</URN>
+    <Class>com.intel.samples.ringerprovider.RingerProvider</Class>
+    <Description>Provides new states when the device's ringer mode changes.</Description>
+    <ItemClass>com.intel.samples.ringerprovider.Ringer</ItemClass>
+    <PushToCloudSensing>true</PushToCloudSensing>
+</Provider>

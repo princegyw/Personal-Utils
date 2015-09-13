@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Apps Sensing Sample</string>
+    <string name="app_header">Context Sensing SDK Samples</string>
+    <string name="authorizeButton">1) Authorize</string>
+    <string name="startSensingButton">3) Enable Sensing</string>
+    <string name="stopSensingButton">6) Disable Sensing</string>
+    <string name="addListenerButton">4) Add Listener</string>
+    <string name="startSensingDaemonButton">2) Start Daemon</string>
+    <string name="removeListenerButton">5) Remove Listener</string>
+    <string name="stopSensingDaemonButton">7) Stop Daemon</string>
+
+</resources>

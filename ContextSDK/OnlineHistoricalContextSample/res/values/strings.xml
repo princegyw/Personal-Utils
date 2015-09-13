@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Online Historical Context Sample</string>
+    <string name="app_header">Context Sensing SDK Samples</string>
+    <string name="authorizeButton">Authorize</string>
+    <string name="getHistoricalButton">Get Historical Item</string>
+    <string name="setHistoricalButton">Set Historical Item</string>
+
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Custom State Sensing App Sample</string>
+    <string name="app_header">Context Sensing SDK Samples</string>
+    <string name="startDaemonButton">1) Start Daemon</string>
+    <string name="startSensingButton">2) Enable Sensing</string>
+    <string name="addListenerButton">3) Add Listener</string>
+    <string name="stopSensingButton">4) Disable Sensing</string>
+    <string name="stopDaemonButton">5) Stop Daemon</string>
+    
+</resources>
