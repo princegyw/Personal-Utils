@@ -1,4 +1,4 @@
-package com.intel.market.thirdparty;
+package com.example.wilson.myapplication;
 
 import android.annotation.SuppressLint;
 import android.os.StrictMode;
@@ -9,16 +9,10 @@ public class Policy {
 	public static void applyStrictPolicy()
 	{
 
-			StrictMode.setThreadPolicy(new StrictMode.ThreadPolicy.Builder()
-										.detectDiskReads()
-										.detectNetwork()
-										.detectDiskWrites()
-										.penaltyLog()
-										.build());
+			StrictMode.setThreadPolicy(new StrictMode.ThreadPolicy.Builder().detectAll().build());
 
 			StrictMode.setVmPolicy(new StrictMode.VmPolicy.Builder()
-									.detectActivityLeaks()
-									.detectLeakedSqlLiteObjects()
+					                .detectAll()
 									.penaltyLog()
 									.penaltyDeath()
 									.build());
